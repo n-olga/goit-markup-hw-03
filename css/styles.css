@@ -200,6 +200,9 @@ h3, h4 {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
+.ourteam {
+    background-color: var(--portfolio-bg);
+}
 .team {
     padding-top: 94px;
     padding-bottom: 50px;
@@ -268,6 +271,7 @@ h3, h4 {
     border-color: transparent;
     border-radius: 4px;
     text-decoration: none;
+    padding: 4px 20px;
 }
 .menu-list-btn:hover,
 .menu-list-btn:focus {
@@ -319,7 +323,6 @@ h3, h4 {
 .footer {
     background-color: var(--dark-bg-color);
     padding-top: 60px;
-    padding-left: 215px;
     padding-bottom: 60px;
 }
 .footer > a {
@@ -342,6 +345,8 @@ h3, h4 {
 .address {
     display: flex;
     flex-direction: column ;
+    min-width: 231px;
+    height: 81px;
 }
 .address .tel {
     margin-top: 9px;
